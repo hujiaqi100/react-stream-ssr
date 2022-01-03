@@ -8,6 +8,9 @@ const One = () => {
             <Button type='primary'>
                 <Link to={'/aa'} >jump to aa</Link>
             </Button>
+            <Button onClick={() => {
+                console.log(111);
+            }}>aa</Button>
 
         </div>
     )
